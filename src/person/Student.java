@@ -3,11 +3,14 @@ package person;
 import person.consciousness.Knowledge;
 
 public class Student {
+    String mName;
+    Knowledge mKnowledge;
+
     public Student(String name) {
-        //TODO: Implementation is needed
+        mName = name;
     }
 
     public void setKnowledge(Knowledge knowledge) {
-        //TODO: Implementation is needed
+        mKnowledge = knowledge;
     }
 }
